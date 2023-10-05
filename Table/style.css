@@ -1,0 +1,43 @@
+/* External CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center content vertically */
+    background: linear-gradient(to bottom, #f0f0f0, #d3d3d3); /* Gradient background */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333; /* Text color for the heading */
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Add border radius for a card-like appearance */
+    color: #333; /* Text color for table content */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
